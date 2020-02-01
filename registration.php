@@ -4,7 +4,7 @@ include 'include/config.php';
 <?php
 include 'include/config.php';
 include 'front_header.php';
-include 'front_nav.php';
+
 ?>
 <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
