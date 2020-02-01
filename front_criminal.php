@@ -67,12 +67,48 @@ include 'front_nav.php';
                   </div>
 
                   <div class="form-group">
-                    <label for="redinglang">Eye colour</label>
-                    <input type="text" class="form-control" id="eye_colour" placeholder="Enter Perpetrator's Eye Colour" name="eye_colour">
+                    <div class="form-group">
+                        <label for="body_type">Gender</label>
+                    <select id="gender" name="gender" class="form-control">
+                        
+                          <option value="African Americans">Male</option>
+                          <option value="Alaska Natives">Female</option>
+                          <option value="Alaska Natives">Lesbian</option>
+                          <option value="Alaska Natives">Gay</option>
+                          <option value="Alaska Natives">Other</option>
+                          
+                        </select>
+                      </div>
                   </div>
-                  <div class="form-group">
-                    <label for="redinglang">Hair colour</label>
-                    <input type="text" class="form-control" id="hair_colour" placeholder="Enter Perpetrator's Hair Colour" name="hair_colour">
+
+                   <div class="form-group">
+                    <div class="form-group">
+                        <label for="body_type">Eye colour</label>
+                    <select id="eye_colour" name="eye_colour" class="form-control">
+                        
+                          <option value="African Americans">Black</option>
+                          <option value="Alaska Natives">Brown</option>
+                          <option value="Alaska Natives">Blue</option>
+                          <option value="Alaska Natives">Green</option>
+                          <option value="Alaska Natives">Other</option>
+                          
+                        </select>
+                      </div>
+                  </div>
+
+                   <div class="form-group">
+                    <div class="form-group">
+                        <label for="body_type">Hair colour</label>
+                    <select id="hair_colour" name="hair_colour" class="form-control">
+                        
+                          <option value="African Americans">Black</option>
+                          <option value="Alaska Natives">Brown</option>
+                          <option value="Alaska Natives">Blonde</option>
+                          <option value="Alaska Natives">Gray</option>
+                          <option value="Alaska Natives">Other</option>
+                          
+                        </select>
+                      </div>
                   </div>
 
                   <div class="form-group">
