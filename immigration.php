@@ -24,10 +24,12 @@ include 'front_nav.php';
                     <input type="text" class="form-control" id="detentioncenter" placeholder="Detention Center" name="detentionname">
                   </div>
               </div>
+
               <div class="card card-primary">
                 <div class="card-header">
                 <h3 class="card-title">Priliminary Details</h3>
               </div>
+              <div class="card-body">
               <div class="form-group">
                     <label for="primarylang">What's your Primary Language?</label>
                     <input type="text" class="form-control" id="primarylang" placeholder="Enter Primary Language" name="primarylang">
@@ -62,11 +64,13 @@ include 'front_nav.php';
                         </div>
                   </div>
               </div>
+          </div>
               <div class="card card-primary">
                   <div class="card-header">
                 <h3 class="card-title">Basic Information</h3>
               </div>
-                  
+               
+               <div class="card-body">   
                   <div class="form-group">
                     <label for="lastentry">Where did you last enter the US?</label>
                     <input type="text" class="form-control" data-inputmask-alias="datetime" data-inputmask-inputformat="dd/mm/yyyy" data-mask id="dob" placeholder="dd/mm/yyyy" id="lastentry" name="lastentry">
@@ -105,6 +109,7 @@ include 'front_nav.php';
                   </div>
                   
                 </div>
+            </div>
                 <!-- /.card-body -->
 
                 <div class="card-footer">
