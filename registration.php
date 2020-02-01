@@ -117,7 +117,7 @@ include 'include/config.php';
                 </div>
                 <!-- /.card-body -->
 
-              </form>
+              
             </div>
             <!-- /.card -->
             <br>
@@ -127,8 +127,8 @@ include 'include/config.php';
                 <h3 class="card-title">Contact Details</h3>
               </div>
               <!-- /.card-header -->
-              <!-- form start -->
-              <form role="form">
+              
+              
                 <div class="card-body">
                   <div class="form-group">
                   <label>Phone Number:</label>
@@ -405,7 +405,7 @@ include 'include/config.php';
                 </div>
                 <!-- /.card-body -->
 
-              </form>
+              
             </div>
             <!-- /.card -->
             <br>
@@ -416,7 +416,7 @@ include 'include/config.php';
               </div>
               <!-- /.card-header -->
               <!-- form start -->
-              <form role="form">
+              
                 <div class="card-body">
                   <div class="form-group">
                     <label for="govid">Government ID</label>
@@ -434,7 +434,7 @@ include 'include/config.php';
                 </div>
                 <!-- /.card-body -->
 
-              </form>
+              
             </div>
             <!-- /.card -->
 
@@ -446,7 +446,7 @@ include 'include/config.php';
               </div>
               <!-- /.card-header -->
               <!-- form start -->
-              <form role="form">
+              
                 <div class="card-body">
                   <div class="form-group">
                     <label for="propic">Profile Pic URL</label>
@@ -483,9 +483,7 @@ include 'include/config.php';
               </form>
             </div>
             <!-- /.card -->
-                  
-                  <div class="form-group">
-                  </div>
+             
                 </form>
               </div>
               <!-- /.card-body -->
