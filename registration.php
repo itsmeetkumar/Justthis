@@ -1,6 +1,8 @@
 <?php
 include 'include/config.php';
 ?>
+<!DOCTYPE html>
+<html>
 <head>
 	<link rel="stylesheet" href="../../plugins/fontawesome-free/css/all.min.css">
   <!-- Ionicons -->
@@ -10,7 +12,7 @@ include 'include/config.php';
   <!-- Google Font: Source Sans Pro -->
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
 </head>
-<body>
+<body class="hold-transition sidebar-mini">
 <!-- Horizontal Form -->
             <div class="card card-info">
               <div class="card-header">
@@ -65,3 +67,4 @@ $(document).ready(function () {
   bsCustomFileInput.init();
 });
 </script>
+</html>
