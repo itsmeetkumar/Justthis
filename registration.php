@@ -7,7 +7,6 @@ include 'include/config.php';
 	<style type="text/css">
 		#card{
 			align-content: center;
-			text-align: center;
 			align-self: center;
 		}
 	</style>
