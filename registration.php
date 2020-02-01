@@ -1,5 +1,9 @@
 <?php
 include 'include/config.php';
+
+if ( ! empty($_POST['firstname'])){
+    $firstname = $_POST['firstname']);
+}
 ?>
 <!DOCTYPE html>
 <html>
@@ -52,7 +56,7 @@ include 'include/config.php';
                 <div class="card-body">
                   <div class="form-group">
                     <label for="firstname">First Name</label>
-                    <input type="text" class="form-control" id="firstname" placeholder="Enter First Name" value="">
+                    <input type="text" class="form-control" id="firstname" placeholder="Enter First Name" value="<?php echo $firstname; ?>">
                   </div>
                   <div class="form-group">
                     <label for="lastname">Last Name</label>
