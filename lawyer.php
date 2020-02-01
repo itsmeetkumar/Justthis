@@ -79,6 +79,7 @@ include 'include/config.php';
                   </div>
                   <div class="form-group">
                     <label for="dob">DOB:</label>
+                    <input type="text" class="form-control" data-inputmask-alias="datetime" data-inputmask-inputformat="dd/mm/yyyy" data-mask id="dob" placeholder="dd/mm/yyyy" name="dob">
                     </div>
                  
                    <div class="form-group">
