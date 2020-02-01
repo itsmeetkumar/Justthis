@@ -32,7 +32,7 @@ include 'front_nav.php';
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <div class="col-sm-4">
-            <h1>Registration Form for Lawyers</h1>
+            <h1>Attorney Registration Form</h1>
           </div>
    
       
