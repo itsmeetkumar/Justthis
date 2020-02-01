@@ -6,7 +6,14 @@ include 'front_nav.php';
 
  <div class="content-wrapper">
     <!-- Content Header (Page header) -->
-    <form role="form">
+    <!-- general form elements -->
+            <div class="card card-primary">
+              <div class="card-header">
+                <h3 class="card-title">Quick Example</h3>
+              </div>
+              <!-- /.card-header -->
+              <!-- form start -->
+              <form role="form">
                 <div class="card-body">
                   <div class="form-group">
                     <label for="exampleInputEmail1">Email address</label>
@@ -39,6 +46,7 @@ include 'front_nav.php';
                   <button type="submit" class="btn btn-primary">Submit</button>
                 </div>
               </form>
+            </div>
     <!-- /.content -->
   </div>
 
