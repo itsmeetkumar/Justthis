@@ -61,28 +61,27 @@ include 'include/config.php';
                   <div class="form-group">
                     <label for="gender">Gender</label>
                     <div class="form-check">
-                          <input class="form-check-input" type="radio" name="radio1">
+                          <input class="form-check-input" type="radio" name="radio1" value="1">
                           <label class="form-check-label">Male</label>
                         </div>
                         <div class="form-check">
-                          <input class="form-check-input" type="radio" name="radio1">
+                          <input class="form-check-input" type="radio" name="radio1" value="2">
                           <label class="form-check-label">Female</label>
                         </div>
                         <div class="form-check">
-                          <input class="form-check-input" type="radio" name="radio1">
+                          <input class="form-check-input" type="radio" name="radio1" value="3">
                           <label class="form-check-label">Other</label>
                         </div>
                   </div>
                   <div class="form-group">
                     <label for="dob">DOB:</label>
                     <div class="form-group">
-                  <label>Date masks:</label>
-
+                 
                   <div class="input-group">
                     <div class="input-group-prepend">
                       <span class="input-group-text"><i class="far fa-calendar-alt"></i></span>
                     </div>
-                    <input type="text" class="form-control" data-inputmask-alias="datetime" data-inputmask-inputformat="dd/mm/yyyy" data-mask>
+                    <input type="text" class="form-control" data-inputmask-alias="datetime" data-inputmask-inputformat="dd/mm/yyyy" data-mask id="dob">
                   </div>
                   <!-- /.input group -->
                 </div>
@@ -92,11 +91,22 @@ include 'include/config.php';
                     <div class="form-group">
                         <label>Ethnicity:</label>
                         <select class="form-control">
-                          <option>option 1</option>
-                          <option>option 2</option>
-                          <option>option 3</option>
-                          <option>option 4</option>
-                          <option>option 5</option>
+                          <option value="1">African Americans</option>
+                          <option value="2">Alaska Natives</option>
+                          <option value="3">Native Americans in United States</option>
+                          <option value="4">Jewish</option>
+                          <option value="5">White</option>
+                          <option value="6">Asian</option>
+                          <option value="7">Multiracial</option>
+                          <option value="8">Native Hawaiians</option>
+                          <option value="9">Pacific Islander</option>
+                          <option value="10">Hispanic and Latino Americans</option>
+                          <option value="11">Arabs<option>
+                          <option value="12">Puerto Ricans</option>
+                          <option value="13">Latino</option>
+                          <option value="14">Pacific Islands Americans</option>
+                          <option value="15">Black</option>
+                          <option value="16">Mexicans</option>
                         </select>
                       </div>
                   </div>
@@ -114,42 +124,42 @@ include 'include/config.php';
              <!-- general form elements -->
             <div class="card card-primary" id="card">
               <div class="card-header">
-                <h3 class="card-title">Quick Example</h3>
+                <h3 class="card-title">Contact Details</h3>
               </div>
               <!-- /.card-header -->
               <!-- form start -->
               <form role="form">
                 <div class="card-body">
                   <div class="form-group">
-                    <label for="exampleInputEmail1">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
-                  </div>
-                  <div class="form-group">
-                    <label for="exampleInputPassword1">Password</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                  </div>
-                  <div class="form-group">
-                    <label for="exampleInputFile">File input</label>
-                    <div class="input-group">
-                      <div class="custom-file">
-                        <input type="file" class="custom-file-input" id="exampleInputFile">
-                        <label class="custom-file-label" for="exampleInputFile">Choose file</label>
-                      </div>
-                      <div class="input-group-append">
-                        <span class="input-group-text" id="">Upload</span>
-                      </div>
+                  <label>Phone Number:</label>
+
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text"><i class="fas fa-phone"></i></span>
                     </div>
+                    <input type="text" class="form-control" data-inputmask='"mask": "(999) 999-9999"' data-mask>
                   </div>
-                  <div class="form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                  <!-- /.input group -->
+                </div>
+                  <div class="form-group">
+                    <label for="email">Email address</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter Email Id">
+                  </div>
+                  <div class="form-group">
+                    <label for="address">Address</label>
+                    <input type="text" class="form-control" id="address" placeholder="Enter Address">
+                  </div>
+                  <div class="form-group">
+                    <label for="city">City, State, Zip Code</label>
+                    <input type="text" class="form-control" id="city" placeholder="Enter City, State, Zip Code">
+                  </div>
+                  <div class="form-group">
+                    <label for="country">Country</label>
+                    <input type="text" class="form-control" id="country" placeholder="Country">
                   </div>
                 </div>
                 <!-- /.card-body -->
 
-                <div class="card-footer">
-                  <button type="submit" class="btn btn-primary">Submit</button>
-                </div>
               </form>
             </div>
             <!-- /.card -->
@@ -157,36 +167,68 @@ include 'include/config.php';
              <!-- general form elements -->
             <div class="card card-primary" id="card">
               <div class="card-header">
-                <h3 class="card-title">Quick Example</h3>
+                <h3 class="card-title">Identification</h3>
               </div>
               <!-- /.card-header -->
               <!-- form start -->
               <form role="form">
                 <div class="card-body">
                   <div class="form-group">
-                    <label for="exampleInputEmail1">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                    <label for="govid">Government ID</label>
+                    <input type="text" class="form-control" id="govid" placeholder="Government ID">
                   </div>
                   <div class="form-group">
-                    <label for="exampleInputPassword1">Password</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                    <label for="ssn">SSN</label>
+                    <input type="number" class="form-control" id="ssn" placeholder="SSN">
                   </div>
                   <div class="form-group">
-                    <label for="exampleInputFile">File input</label>
-                    <div class="input-group">
-                      <div class="custom-file">
-                        <input type="file" class="custom-file-input" id="exampleInputFile">
-                        <label class="custom-file-label" for="exampleInputFile">Choose file</label>
-                      </div>
-                      <div class="input-group-append">
-                        <span class="input-group-text" id="">Upload</span>
-                      </div>
+                    <label for="otherid">Other ID</label>
+                    <input type="text" class="form-control" id="otherid" placeholder="Other ID">
+                  </div>
+                  
+                </div>
+                <!-- /.card-body -->
+
+              </form>
+            </div>
+            <!-- /.card -->
+
+            <br>
+             <!-- general form elements -->
+            <div class="card card-primary" id="card">
+              <div class="card-header">
+                <h3 class="card-title">Profile</h3>
+              </div>
+              <!-- /.card-header -->
+              <!-- form start -->
+              <form role="form">
+                <div class="card-body">
+                  <div class="form-group">
+                    <label for="propic">Profile Pic URL</label>
+                    <input type="text" class="form-control" id="propic" placeholder="Profile Pic URL">
+                  </div>
+                  <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" class="form-control" id="password" placeholder="Password">
+                  </div>
+                  <div class="form-group">
+                    <label for="recovemail">Recovery Email</label>
+                    <input type="email" class="form-control" id="recovemail" placeholder="Recovery Email">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="dob">Creation Date:</label>
+                    <div class="form-group">
+                 <div class="input-group">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text"><i class="far fa-calendar-alt"></i></span>
                     </div>
+                    <input type="text" class="form-control" data-inputmask-alias="datetime" data-inputmask-inputformat="dd/mm/yyyy" data-mask id="creationdate">
                   </div>
-                  <div class="form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                  <!-- /.input group -->
+                </div>
                   </div>
+                  
                 </div>
                 <!-- /.card-body -->
 
