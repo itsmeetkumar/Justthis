@@ -1,6 +1,6 @@
 <?php
 // Include config file
-require_once "config.php";
+include 'include/config.php';
  
 
 // Processing form data when form is submitted
