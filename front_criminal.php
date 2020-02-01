@@ -29,10 +29,6 @@ include 'front_nav.php';
       <!-- Default box -->
    
 
- <div class="card card-primary">
-              <div class="card-header">
-                <h3 class="card-title">Basic Information</h3>
-              </div>
               <!-- /.card-header -->
               <!-- form start -->
               <form role="form">
