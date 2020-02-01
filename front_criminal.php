@@ -58,20 +58,20 @@ include 'front_nav.php';
                     <input type="text" class="form-control" id="perp_last_name" placeholder="Enter Perpetrator's Last Name" name="perp_last_name">
                   </div>
                   <div class="form-group">
-                    <label for="preferedlang">Age</label>
+                    <label for="age">Age</label>
                     <input type="text" class="form-control" id="age" placeholder="Enter Perpetrator's age" name="age">
                   </div>
 
                   <div class="form-group">
                     <div class="form-group">
-                        <label for="body_type">Gender</label>
+                        <label for="gender">Gender</label>
                     <select id="gender" name="gender" class="form-control">
                         
-                          <option value="African Americans">Male</option>
-                          <option value="Alaska Natives">Female</option>
-                          <option value="Alaska Natives">Lesbian</option>
-                          <option value="Alaska Natives">Gay</option>
-                          <option value="Alaska Natives">Other</option>
+                          <option value="Male">Male</option>
+                          <option value="Female">Female</option>
+                          <option value="Lesbian">Lesbian</option>
+                          <option value="Gay">Gay</option>
+                          <option value="Other">Other</option>
                           
                         </select>
                       </div>
@@ -82,11 +82,11 @@ include 'front_nav.php';
                         <label for="body_type">Eye colour</label>
                     <select id="eye_colour" name="eye_colour" class="form-control">
                         
-                          <option value="African Americans">Black</option>
-                          <option value="Alaska Natives">Brown</option>
-                          <option value="Alaska Natives">Blue</option>
-                          <option value="Alaska Natives">Green</option>
-                          <option value="Alaska Natives">Other</option>
+                          <option value="Black">Black</option>
+                          <option value="Brown">Brown</option>
+                          <option value="Blue">Blue</option>
+                          <option value="Green">Green</option>
+                          <option value="Other">Other</option>
                           
                         </select>
                       </div>
@@ -97,11 +97,11 @@ include 'front_nav.php';
                         <label for="body_type">Hair colour</label>
                     <select id="hair_colour" name="hair_colour" class="form-control">
                         
-                          <option value="African Americans">Black</option>
-                          <option value="Alaska Natives">Brown</option>
-                          <option value="Alaska Natives">Blonde</option>
-                          <option value="Alaska Natives">Gray</option>
-                          <option value="Alaska Natives">Other</option>
+                          <option value="Black">Black</option>
+                          <option value="Brown">Brown</option>
+                          <option value="Blonde">Blonde</option>
+                          <option value="Gray">Gray</option>
+                          <option value="Other">Other</option>
                           
                         </select>
                       </div>
@@ -112,9 +112,9 @@ include 'front_nav.php';
                         <label for="body_type">Body Type</label>
                     <select id="body_type" name="body_type" class="form-control">
                         
-                          <option value="African Americans">Slim</option>
-                          <option value="Alaska Natives">Fat</option>
-                           <option value="Alaska Natives">Athlete</option>
+                          <option value="Slim">Slim</option>
+                          <option value="Fat">Fat</option>
+                           <option value="Athlete">Athlete</option>
                           
                         </select>
                       </div>
