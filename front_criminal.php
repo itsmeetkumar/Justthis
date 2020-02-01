@@ -363,6 +363,7 @@ include 'front_nav.php';
 </select>
                   </div>
                 </div>
+              </div>
 
 
 
@@ -378,6 +379,7 @@ include 'front_nav.php';
                   <div class="card-header">
                 <h3 class="card-title">Contact Details</h3>
               </div>
+               <div class="card-body">
                 <div class="form-group">
                     <label for="redinglang">Facebook URL</label>
                     <input type="text" class="form-control" id="fb_url" placeholder="Enter Perpetrator's Facebook URL" name="fb_url">
@@ -406,10 +408,19 @@ include 'front_nav.php';
 
           
             </div>
+          </div>
+
+
+
+
+
+
+
               <div class="card card-primary">
                   <div class="card-header">
                 <h3 class="card-title">Occupation Details</h3>
               </div>
+               <div class="card-body">
                 
                   <div class="form-group">
                     <label for="redinglang">occupation</label>
@@ -693,13 +704,17 @@ include 'front_nav.php';
 
           
             </div>
+</div>
+
+
+
 
 
             <div class="card card-primary">
                   <div class="card-header">
                 <h3 class="card-title">More Details</h3>
               </div>
-               
+                <div class="card-body">
                   <div class="form-group">
                     <label for="redinglang">Description</label>
                     <input type="text" class="form-control" id="description" placeholder="Enter more description about the perpetrator" name="description">
@@ -712,6 +727,7 @@ include 'front_nav.php';
 
           
             </div>
+          </div>
 
 
 
