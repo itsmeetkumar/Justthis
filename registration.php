@@ -31,6 +31,7 @@ include 'front_nav.php';
 
     </section>
     <!-- /.content -->
+    
 <?php
 include 'front_footer.php';
 ?>
