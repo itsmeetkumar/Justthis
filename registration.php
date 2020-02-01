@@ -50,13 +50,13 @@ include 'include/config.php';
               <!-- form start -->
               <form role="form" method="post" action="register.php">
                 <div class="card-body">
-                  <div class="form-group">
+                  <di v class="form-group">
                     <label for="firstname">First Name</label>
-                    <input type="text" class="form-control" id="firstname" placeholder="Enter First Name">
+                    <input type="text" class="form-control" id="firstname" placeholder="Enter First Name" name="firstname">
                   </div>
                   <div class="form-group">
                     <label for="lastname">Last Name</label>
-                    <input type="text" class="form-control" id="lastname" placeholder="Enter Last Name">
+                    <input type="text" class="form-control" id="lastname" placeholder="Enter Last Name" name="lastname">
                   </div>
                   <div class="form-group">
                     <label for="gender">Gender</label>
