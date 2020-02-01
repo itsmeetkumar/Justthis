@@ -30,7 +30,7 @@ include 'include/config.php';
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <div class="col-sm-4">
-            <h1>Registration Form</h1>
+            <h1>Login Form</h1>
           </div>
    
       
@@ -44,7 +44,7 @@ include 'include/config.php';
             <!-- general form elements -->
             <div class="card card-primary" id="card">
               <div class="card-header">
-                <h3 class="card-title">Basic Details</h3>
+                <h3 class="card-title">Login</h3>
               </div>
               <!-- /.card-header -->
                  <!-- form start -->
