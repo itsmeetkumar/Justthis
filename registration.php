@@ -424,7 +424,7 @@ include 'include/config.php';
                   </div>
                   <div class="form-group">
                     <label for="ssn">SSN</label>
-                    <input type="number" class="form-control" id="ssn" placeholder="SSN">
+                    <input type="text" class="form-control" id="ssn" placeholder="SSN">
                   </div>
                   <div class="form-group">
                     <label for="otherid">Other ID</label>
