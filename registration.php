@@ -29,7 +29,7 @@ include 'include/config.php';
   <div class="content-wrapper">
     <!-- Content Header (Page header) -->
     <section class="content-header">
-      <div class="col-sm-6">
+      <div class="col-sm-4">
             <h1>Registration Form</h1>
           </div>
    
