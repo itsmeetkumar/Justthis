@@ -83,7 +83,7 @@ include 'include/config.php';
               </form>
             </div>
             <!-- /.card -->
-
+            <br>
              <!-- general form elements -->
             <div class="card card-primary" id="card">
               <div class="card-header">
@@ -126,7 +126,7 @@ include 'include/config.php';
               </form>
             </div>
             <!-- /.card -->
-
+            <br>
              <!-- general form elements -->
             <div class="card card-primary" id="card">
               <div class="card-header">
