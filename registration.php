@@ -6,7 +6,7 @@ include 'include/config.php';
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>AdminLTE 3 | General Form Elements</title>
+  <title></title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -31,7 +31,7 @@ include 'include/config.php';
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1>General Form</h1>
+            <h1>Registration Form</h1>
           </div>
          
         </div>
@@ -52,7 +52,7 @@ include 'include/config.php';
               <!-- /.card-header -->
               <!-- form start -->
               <form role="form">
-                <div class="card-body">
+                <div class="card-body" style="align-items: center;">
                   <div class="form-group">
                     <label for="exampleInputEmail1">Email address</label>
                     <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
