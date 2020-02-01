@@ -9,11 +9,11 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     print_r($_POST);die;
  
     // Validate username
-    if(empty(trim($_POST["username"]))){
-        $username_err = "Please enter a username.";
+    if(empty(trim($_POST["phone"]))){
+        $username_err = "Please enter phone number.";
     } else{
         // Prepare a select statement
-        $sql = "SELECT id FROM users WHERE username = ?";
+        $sql = "SELECT id FROM users WHERE phone = ?";
         
         if($stmt = mysqli_prepare($link, $sql)){
             // Bind variables to the prepared statement as parameters
