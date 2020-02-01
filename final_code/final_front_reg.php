@@ -39,7 +39,7 @@ include 'front_nav.php';
                 <div class="card-body">
                   <div class="form-group">
                     <label for="anumber">What's your A Number?</label>
-                    <input type="text" class="form-control" id="anumber" placeholder="Enter A Number" name="anumber">
+                    <input type="text" class="form-control" id="anumber" placeholder="Enter A Number" name="anumber" required>
                   </div>
                   <div class="form-group">
                     <label for="detentioncenter">Detention Center Name:</label>
