@@ -4,6 +4,13 @@ include 'include/config.php';
 <!DOCTYPE html>
 <html>
 <head>
+	<style type="text/css">
+		#card{
+			align-content: center;
+			text-align: center;
+			align-self: center;
+		}
+	</style>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title></title>
@@ -19,6 +26,7 @@ include 'include/config.php';
   <!-- Google Font: Source Sans Pro -->
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
 </head>
+
 <body>
 <div class="wrapper">
   
@@ -44,7 +52,7 @@ include 'include/config.php';
           <!-- left column -->
           <div class="col-md-6">
             <!-- general form elements -->
-            <div class="card card-primary"  style="align-items: center;">
+            <div class="card card-primary" id="card">
               <div class="card-header">
                 <h3 class="card-title">Quick Example</h3>
               </div>
@@ -87,7 +95,7 @@ include 'include/config.php';
             <!-- /.card -->
 
              <!-- general form elements -->
-            <div class="card card-primary"  style="align-items: center;">
+            <div class="card card-primary" id="card">
               <div class="card-header">
                 <h3 class="card-title">Quick Example</h3>
               </div>
@@ -130,7 +138,7 @@ include 'include/config.php';
             <!-- /.card -->
 
              <!-- general form elements -->
-            <div class="card card-primary"  style="align-items: center;">
+            <div class="card card-primary" id="card">
               <div class="card-header">
                 <h3 class="card-title">Quick Example</h3>
               </div>
