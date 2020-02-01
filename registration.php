@@ -4,12 +4,7 @@ include 'include/config.php';
 <!DOCTYPE html>
 <html>
 <head>
-	<style type="text/css">
-		#card{
-			align-self: center;
-		}
-	</style>
-  <meta charset="utf-8">
+<meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title></title>
   <!-- Tell the browser to be responsive to screen width -->
@@ -47,8 +42,7 @@ include 'include/config.php';
     <section class="content">
       <div>
         <div class="row">
-          <!-- left column -->
-          <div class="col-md-6">
+         
             <!-- general form elements -->
             <div class="card card-primary" id="card">
               <div class="card-header">
@@ -177,7 +171,7 @@ include 'include/config.php';
               </form>
             </div>
             <!-- /.card -->
-                  </div>
+                  
                   <div class="form-group">
                   </div>
                 </form>
