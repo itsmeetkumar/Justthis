@@ -100,7 +100,7 @@ include 'front_nav.php';
                   </div>
 
                   <div class="form-group">
-                    <label for="mode_of_entry">Where exactly did you enter the US?</label>
+                    <label for="mode_of_entry">How exactly did you enter the US?</label>
                     <select class="form-control">
                           <option value="BRIDGE">BRIDGE</option>
                           <option value="RIVER">RIVER</option>
