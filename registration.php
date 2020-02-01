@@ -89,8 +89,9 @@ include 'include/config.php';
 
                   <div class="form-group">
                     <div class="form-group">
-                        <label>Ethnicity:</label>
-                        <select class="form-control">
+                        <label for="ethnicity">Ethnicity</label>
+                    <select id="ethnicity" name="ethnicity" class="form-control">
+                        
                           <option value="African Americans">African Americans</option>
                           <option value="Alaska Natives">Alaska Natives</option>
                           <option value="Native Americans in United States">Native Americans in United States</option>
