@@ -23,6 +23,8 @@ include 'front_nav.php';
                     <label for="detentioncenter">Detention Center Name:</label>
                     <input type="text" class="form-control" id="detentioncenter" placeholder="Detention Center" name="detentionname">
                   </div>
+              </div>
+              <div class="card card-primary">
                 <div class="card-header">
                 <h3 class="card-title">Priliminary Details</h3>
               </div>
@@ -59,7 +61,8 @@ include 'front_nav.php';
                           <label class="form-check-label">No</label>
                         </div>
                   </div>
-
+              </div>
+              <div class="card card-primary">
                   <div class="card-header">
                 <h3 class="card-title">Basic Information</h3>
               </div>
