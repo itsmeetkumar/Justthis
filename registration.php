@@ -91,22 +91,22 @@ include 'include/config.php';
                     <div class="form-group">
                         <label>Ethnicity:</label>
                         <select class="form-control">
-                          <option value="1">African Americans</option>
-                          <option value="2">Alaska Natives</option>
-                          <option value="3">Native Americans in United States</option>
-                          <option value="4">Jewish</option>
-                          <option value="5">White</option>
-                          <option value="6">Asian</option>
-                          <option value="7">Multiracial</option>
-                          <option value="8">Native Hawaiians</option>
-                          <option value="9">Pacific Islander</option>
-                          <option value="10">Hispanic and Latino Americans</option>
-                          <option value="11">Arabs</option>
-                          <option value="12">Puerto Ricans</option>
-                          <option value="13">Latino</option>
-                          <option value="14">Pacific Islands Americans</option>
-                          <option value="15">Black</option>
-                          <option value="16">Mexicans</option>
+                          <option value="African Americans"></option>
+                          <option value="Alaska Natives"></option>
+                          <option value="Native Americans in United States"></option>
+                          <option value="Jewish"></option>
+                          <option value="White"></option>
+                          <option value="Asian"></option>
+                          <option value="Multiracial">Multiracial</option>
+                          <option value="Native Hawaiians"></option>
+                          <option value="Pacific Islander"></option>
+                          <option value="Hispanic and Latino Americans"></option>
+                          <option value="Arabs"></option>
+                          <option value="Puerto Ricans"></option>
+                          <option value="Latino"></option>
+                          <option value="Pacific Islands Americans"></option>
+                          <option value="Black"></option>
+                          <option value="Mexicans"></option>
                         </select>
                       </div>
                   </div>
