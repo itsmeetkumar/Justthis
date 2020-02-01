@@ -6,7 +6,7 @@ include 'include/config.php';
 // Processing form data when form is submitted
 if($_SERVER["REQUEST_METHOD"] == "POST"){
 
-    printf($_POST);die;
+    print_r($_POST);die;
  
     // Validate username
     if(empty(trim($_POST["username"]))){
