@@ -101,7 +101,7 @@ include 'include/config.php';
                           <option value="8">Native Hawaiians</option>
                           <option value="9">Pacific Islander</option>
                           <option value="10">Hispanic and Latino Americans</option>
-                          <option value="11">Arabs<option>
+                          <option value="11">Arabs</option>
                           <option value="12">Puerto Ricans</option>
                           <option value="13">Latino</option>
                           <option value="14">Pacific Islands Americans</option>
