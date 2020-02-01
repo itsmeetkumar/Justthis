@@ -61,10 +61,6 @@ include 'front_nav.php';
                     <label for="preferedlang">Age</label>
                     <input type="text" class="form-control" id="age" placeholder="Enter Perpetrator's age" name="age">
                   </div>
-                  <div class="form-group">
-                    <label for="writtenlang">Gender</label>
-                    <input type="text" class="form-control" id="gender" placeholder="Enter Perpetrator's gender" name="gender">
-                  </div>
 
                   <div class="form-group">
                     <div class="form-group">
