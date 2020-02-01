@@ -20,7 +20,7 @@ include 'include/config.php';
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
 </head>
 
-<body>
+<body style="background-color:blue;">
 <div class="wrapper">
   
 
