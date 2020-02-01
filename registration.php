@@ -2,7 +2,7 @@
 include 'include/config.php';
 
 if ( ! empty($_POST['firstname'])){
-    $firstname = $_POST['firstname']);
+    $firstname = $_POST['firstname'];
 }
 ?>
 <!DOCTYPE html>
