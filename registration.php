@@ -48,15 +48,16 @@ include 'include/config.php';
               </div>
               <!-- /.card-header -->
               <!-- form start -->
-              <form role="form">
+              <form role="form" method="post" action="register.php">
+
                 <div class="card-body">
                   <div class="form-group">
                     <label for="firstname">First Name</label>
-                    <input type="text" class="form-control" id="firstname" placeholder="Enter First Name">
+                    <input type="text" class="form-control" id="firstname" placeholder="Enter First Name" value="<?php echo $firstname; ?>">
                   </div>
                   <div class="form-group">
                     <label for="lastname">Last Name</label>
-                    <input type="text" class="form-control" id="lastname" placeholder="Enter Last Name">
+                    <input type="text" class="form-control" id="lastname" placeholder="Enter Last Name" value="<?php echo $lastname; ?>">
                   </div>
                   <div class="form-group">
                     <label for="gender">Gender</label>
@@ -81,7 +82,7 @@ include 'include/config.php';
                     <div class="input-group-prepend">
                       <span class="input-group-text"><i class="far fa-calendar-alt"></i></span>
                     </div>
-                    <input type="text" class="form-control" data-inputmask-alias="datetime" data-inputmask-inputformat="dd/mm/yyyy" data-mask id="dob">
+                    <input type="text" class="form-control" data-inputmask-alias="datetime" data-inputmask-inputformat="dd/mm/yyyy" data-mask id="dob" value="<?php echo $dob; ?>">
                   </div>
                   <!-- /.input group -->
                 </div>
@@ -112,7 +113,7 @@ include 'include/config.php';
                   </div>
                   <div class="form-group">
                     <label for="occupation">Occupation</label>
-                    <input type="text" class="form-control" id="occupation" placeholder="Occupation">
+                    <input type="text" class="form-control" id="occupation" placeholder="Occupation" value="<?php echo $occupation; ?>">
                   </div>
                 </div>
                 <!-- /.card-body -->
@@ -137,21 +138,21 @@ include 'include/config.php';
                     <div class="input-group-prepend">
                       <span class="input-group-text"><i class="fas fa-phone"></i></span>
                     </div>
-                    <input type="text" class="form-control" data-inputmask='"mask": "(999) 999-9999"' data-mask>
+                    <input type="text" class="form-control" data-inputmask='"mask": "(999) 999-9999"' data-mask value="<?php echo $phone; ?>">
                   </div>
                   <!-- /.input group -->
                 </div>
                   <div class="form-group">
                     <label for="email">Email address</label>
-                    <input type="email" class="form-control" id="email" placeholder="Enter Email Id">
+                    <input type="email" class="form-control" id="email" placeholder="Enter Email Id" value="<?php echo $email; ?>">
                   </div>
                   <div class="form-group">
                     <label for="address">Address</label>
-                    <input type="text" class="form-control" id="address" placeholder="Enter Address">
+                    <input type="text" class="form-control" id="address" placeholder="Enter Address" value="<?php echo $address; ?>">
                   </div>
                   <div class="form-group">
                     <label for="city">City, State, Zip Code</label>
-                    <input type="text" class="form-control" id="city" placeholder="Enter City, State, Zip Code">
+                    <input type="text" class="form-control" id="city" placeholder="Enter City, State, Zip Code" value="<?php echo $city; ?>">
                   </div>
                   <div class="form-group">
                     <label for="country">Country</label>
@@ -420,15 +421,15 @@ include 'include/config.php';
                 <div class="card-body">
                   <div class="form-group">
                     <label for="govid">Government ID</label>
-                    <input type="text" class="form-control" id="govid" placeholder="Government ID">
+                    <input type="text" class="form-control" id="govid" placeholder="Government ID" value="<?php echo $govid; ?>">
                   </div>
                   <div class="form-group">
                     <label for="ssn">SSN</label>
-                    <input type="text" class="form-control" id="ssn" placeholder="SSN">
+                    <input type="text" class="form-control" id="ssn" placeholder="SSN" value="<?php echo $ssn; ?>">
                   </div>
                   <div class="form-group">
                     <label for="otherid">Other ID</label>
-                    <input type="text" class="form-control" id="otherid" placeholder="Other ID">
+                    <input type="text" class="form-control" id="otherid" placeholder="Other ID" value="<?php echo $otherid; ?>">
                   </div>
                   
                 </div>
@@ -450,15 +451,15 @@ include 'include/config.php';
                 <div class="card-body">
                   <div class="form-group">
                     <label for="propic">Profile Pic URL</label>
-                    <input type="text" class="form-control" id="propic" placeholder="Profile Pic URL">
+                    <input type="text" class="form-control" id="propic" placeholder="Profile Pic URL" value="<?php echo $propicurl; ?>">
                   </div>
                   <div class="form-group">
                     <label for="password">Password</label>
-                    <input type="password" class="form-control" id="password" placeholder="Password">
+                    <input type="password" class="form-control" id="password" placeholder="Password" value="<?php echo $password; ?>">
                   </div>
                   <div class="form-group">
                     <label for="recovemail">Recovery Email</label>
-                    <input type="email" class="form-control" id="recovemail" placeholder="Recovery Email">
+                    <input type="email" class="form-control" id="recovemail" placeholder="Recovery Email" value="<?php echo $email; ?>">
                   </div>
 
                   <div class="form-group">
@@ -468,7 +469,7 @@ include 'include/config.php';
                     <div class="input-group-prepend">
                       <span class="input-group-text"><i class="far fa-calendar-alt"></i></span>
                     </div>
-                    <input type="text" class="form-control" data-inputmask-alias="datetime" data-inputmask-inputformat="dd/mm/yyyy" data-mask id="creationdate">
+                    <input type="text" class="form-control" data-inputmask-alias="datetime" data-inputmask-inputformat="dd/mm/yyyy" data-mask id="creationdate" value="<?php echo $creationdate; ?>">
                   </div>
                   <!-- /.input group -->
                 </div>
