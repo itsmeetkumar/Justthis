@@ -12,7 +12,7 @@ include 'front_nav.php';
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1>Part - I</h1>
+            <h1>Part - IV<br>Upload a documents and proofs</h1>
           </div>
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
@@ -45,20 +45,21 @@ include 'front_nav.php';
           <div class="card card-primary">
                 <div class="card-body">
                   <div class="form-group">
-                    <label for="manner_of_last_entry">Select Type of case</label>
-                    <select class="form-control">
-                          <option value="AA">Assault</option>
-                          <option value="otherdetails">Accident</option>
-                          <option value="visa">Bully</option>
-                          <option value="greencard">Divorce</option>
-                          <option value="otherdetails">Immigratikon</option>
-                          <option value="otherdetails">Murder</option>
-                        </select>
+                    <label for="manner_of_last_entry">Upload a documents and proofs</label>
+                    <div class="input-group">
+                      <div class="custom-file">
+                        <input type="file" class="custom-file-input" id="exampleInputFile">
+                        <label class="custom-file-label" for="exampleInputFile">Choose file</label>
+                      </div>
+                      <div class="input-group-append">
+                        <span class="input-group-text" id="">Upload</span>
+                      </div>
+                    </div>
                   </div>
                    <button type="submit" class="btn btn-primary">Submit</button>
           </div>
         </div>
-        <dir>You can enter the details here .....</dir>
+        <dir></dir>
 
 
 

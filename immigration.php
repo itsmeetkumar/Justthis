@@ -11,7 +11,7 @@ include 'front_nav.php';
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1>Immigrant Form</h1>
+            <h1>Part-II<br>Immigrant Form</h1>
           </div>
           
         </div>
