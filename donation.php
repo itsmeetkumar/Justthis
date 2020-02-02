@@ -14,7 +14,7 @@ include 'front_nav.php';
           <div class="col-sm-6">
             <h1>Donate for a cause and make a difference</h1>
             <div style="font: 8">All the donations on this website goes directly to the victims and immigrants who cannot afford the cost of the attorney.</div>
-            <div> "It's not how much you give BUT how much love you put into giving" thank you for the donation</div>
+            <div> "It's not how much you give BUT how much love you put into giving" thank you for the donation. God bless you.</div>
           </div>
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
@@ -63,10 +63,10 @@ include 'front_nav.php';
                     <label for="secondarylang">Payment Method</label>
                     <input type="text" class="form-control" id="don_amount" placeholder="Enter donation amount" name="don_amount">
                   </div>
-                  <div><img src="dist/img/paypal.jpg" alt="Italian Trulli" width="50" height="50"></div>
-               
-              
-              
+                  <div><img src="dist/img/paypal.jpg" alt="paypal sign" width="50" height="50"></div>
+                  <div><img src="dist/img/credit/visa.png" alt="visa card sign" width="50" height="50"></div>
+                  <div><img src="dist/img/credit/mastercard.png" alt="master card sign" width="50" height="50"></div>
+                  <div><img src="dist/img/credit/american-express.png" alt="american sign" width="50" height="50"></div>
                 </div>
               </div>
 
