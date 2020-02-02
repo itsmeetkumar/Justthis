@@ -46,9 +46,19 @@ include 'front_nav.php';
 
                 <p class="text-muted text-center">IRAN</p>
 
-                
+                 <ul class="list-group list-group-unbordered mb-3">
+                  <li class="list-group-item">
+                    <b>Cases against me</b> <a class="float-right">7</a>
+                  </li>
+                  <li class="list-group-item">
+                    <b>My reported cases</b> <a class="float-right">5</a>
+                  </li>
+                  <li class="list-group-item">
+                    <b>Total spenditure</b> <a class="float-right">$ 3,287</a>
+                  </li>
+                </ul>
 
-                <a href="#" class="btn btn-primary btn-block"><b>Follow</b></a>
+          
               </div>
               <!-- /.card-body -->
             </div>
