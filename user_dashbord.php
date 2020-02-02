@@ -129,12 +129,12 @@ include 'front_nav.php';
                   </div>
                   <div class="form-group">
                     <label for="gender">Gender</label>
-                    <div class="form-check" value="Female">
+                    <div class="form-check">
                           <input class="form-check-input" type="radio" name="radio1" value="1">
                           <label class="form-check-label">Male</label>
                         </div>
                         <div class="form-check">
-                          <input class="form-check-input" type="radio" name="radio1" value="2">
+                          <input class="form-check-input" type="radio" checked name="radio1" value="2">
                           <label class="form-check-label">Female</label>
                         </div>
                         <div class="form-check">
@@ -165,7 +165,7 @@ include 'front_nav.php';
                           <option value="Alaska Natives">Alaska Natives</option>
                           <option value="Native Americans in United States">Native Americans in United States</option>
                           <option value="Jewish">Jewish</option>
-                          <option value="White">White</option>
+                          <option value="White" selected>White</option>
                           <option value="Asian">Asian</option>
                           <option value="Multiracial">Multiracial</option>
                           <option value="Native Hawaiians">Native Hawaiians</option>
@@ -199,7 +199,7 @@ include 'front_nav.php';
                     <div class="input-group-prepend">
                       <span class="input-group-text"><i class="fas fa-phone"></i></span>
                     </div>
-                    <input type="text" class="form-control" data-inputmask='"mask": "(999) 999-9999"' data-mask placeholder="(   )-___ ____" name="phone">
+                    <input type="text" class="form-control" value="3107955677" data-inputmask='"mask": "(999) 999-9999"' data-mask placeholder="(   )-___ ____" name="phone">
                   </div>
                   <!-- /.input group -->
                 </div>
