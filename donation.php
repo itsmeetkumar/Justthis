@@ -63,7 +63,7 @@ include 'front_nav.php';
                     <label for="secondarylang">Payment Method</label>
                     <input type="text" class="form-control" id="don_amount" placeholder="Enter donation amount" name="don_amount">
                   </div>
-                  <div><img src="project1/dist/img/paypal.jpg" alt="Italian Trulli"></div>
+                  <div><img src="dist/img/paypal.jpg" alt="Italian Trulli"></div>
                
               
               
