@@ -50,7 +50,7 @@ include 'include/config.php';
               <!-- form start -->
               <form role="form" method="post" action="register.php">
                 <div class="card-body">
-                  <di v class="form-group">
+                  <div class="form-group">
                     <label for="firstname">First Name</label>
                     <input type="text" class="form-control" id="firstname" placeholder="Enter First Name" name="firstname">
                   </div>
