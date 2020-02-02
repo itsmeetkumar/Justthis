@@ -58,6 +58,7 @@ include 'front_nav.php';
                    <button type="submit" class="btn btn-primary">Submit</button>
           </div>
         </div>
+        <dir>You can enter the details here .....</dir>
 
 
 
