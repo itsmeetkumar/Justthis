@@ -66,7 +66,7 @@ include 'front_nav.php';
                   
                   <div class="row">
                     <div class="column">
-                      <img src="dist/img/paypal.jpg" alt="paypal sign" style="width:100%">
+                      <img src="dist/img/paypal.jpg" alt="paypal sign" style="width:10%">
                       </div>
                       <div class="column">
                         <img src="dist/img/credit/visa.png" alt="visa card sign" style="width:100%">
