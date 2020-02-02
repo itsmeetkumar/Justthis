@@ -7,35 +7,42 @@
           <li class="nav-item">
             <a href="<?php echo $base_url; ?>/user_dashbord.php" class="nav-link">
               <i class="nav-icon fas fa-file"></i>
-              <p>My Profile</p>
+              <p>Dashbord</p>
             </a>
           </li>
 
           <li class="nav-item">
-            <a href="<?php echo $base_url; ?>/hire_advocate.php" class="nav-link">
+            <a href="<?php echo $base_url; ?>/Advocate/client_list.php" class="nav-link">
               <i class="nav-icon fas fa-file"></i>
-              <p>My Cases</p>
+              <p>Client List</p>
             </a>
           </li>
 
           <li class="nav-item">
-            <a href="<?php echo $base_url; ?>/front_report1.php" class="nav-link">
+            <a href="<?php echo $base_url; ?>/Advocate/client_document.php" class="nav-link">
               <i class="nav-icon fas fa-file"></i>
-              <p>file a Case</p>
+              <p>Client Documents</p>
             </a>
           </li>
 
           <li class="nav-item">
-            <a href="<?php echo $base_url; ?>/hire_advocate.php" class="nav-link">
+            <a href="<?php echo $base_url; ?>/Advocate/appointment.php" class="nav-link">
               <i class="nav-icon fas fa-file"></i>
-              <p>Find Attorney </p>
+              <p>Appointment </p>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="<?php echo $base_url; ?>/Advocate/client_message.php" class="nav-link">
+              <i class="nav-icon fas fa-file"></i>
+              <p>Client Messages </p>
             </a>
           </li>
 
           <li class="nav-item">
             <a href="<?php echo $base_url; ?>/heatmap.php" class="nav-link">
               <i class="nav-icon fas fa-file"></i>
-              <p>Heat Map Analysis </p>
+              <p>Heat Map </p>
             </a>
           </li>
           
