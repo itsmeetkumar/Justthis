@@ -63,11 +63,7 @@ include 'front_nav.php';
                     <label for="secondarylang">Payment Method</label>
                     <input type="text" class="form-control" id="don_amount" placeholder="Enter donation amount" name="don_amount">
                   </div>
-                  <div><img src="dist/img/paypal.jpg" alt="paypal sign" width="50" height="50"></div>
-                  <div><img src="dist/img/credit/visa.png" alt="visa card sign" width="50" height="50"></div>
-                  <div><img src="dist/img/credit/mastercard.png" alt="master card sign" width="50" height="50"></div>
-                  <div><img src="dist/img/credit/american-express.png" alt="american sign" width="50" height="50"></div>
-
+                  
                   <div class="row">
                     <div class="column">
                       <img src="dist/img/paypal.jpg" alt="paypal sign" style="width:100%">
