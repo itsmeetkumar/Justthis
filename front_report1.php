@@ -47,11 +47,12 @@ include 'front_nav.php';
                   <div class="form-group">
                     <label for="manner_of_last_entry">Select Type of case</label>
                     <select class="form-control">
-                          <option value="AA">AA</option>
-                          <option value="EW">EW</option>
-                          <option value="visa">VISA</option>
-                          <option value="greencard">GREENCARD</option>
-                          <option value="otherdetails">OTHER-DETAILS</option>
+                          <option value="AA">Assault</option>
+                          <option value="otherdetails">Accident</option>
+                          <option value="visa">Bully</option>
+                          <option value="greencard">Divorce</option>
+                          <option value="otherdetails">Immigratikon</option>
+                          <option value="otherdetails">Murder</option>
                         </select>
                   </div>
                    <button type="submit" class="btn btn-primary">Submit</button>

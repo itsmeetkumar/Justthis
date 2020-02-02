@@ -150,7 +150,7 @@ include 'front_nav.php';
                     <div class="input-group-prepend">
                       <span class="input-group-text"><i class="far fa-calendar-alt"></i></span>
                     </div>
-                    <input type="text" class="form-control" data-inputmask-alias="datetime" data-inputmask-inputformat="dd/mm/yyyy" data-mask id="dob" placeholder="dd/mm/yyyy" name="dob">
+                    <input type="text" class="form-control" data-inputmask-alias="datetime" data-inputmask-inputformat="dd/mm/yyyy" value="03/23/1992" data-mask id="dob" placeholder="dd/mm/yyyy" name="dob">
                   </div>
                   <!-- /.input group -->
                 </div>
@@ -182,7 +182,7 @@ include 'front_nav.php';
                   </div>
                   <div class="form-group">
                     <label for="occupation">Occupation</label>
-                    <input type="text" class="form-control" id="occupation" name="occupation" placeholder="Occupation">
+                    <input type="text" class="form-control" value="Data Engineer" id="occupation" name="occupation" placeholder="Occupation">
                   </div>
                 </div>
                     </form>
@@ -205,15 +205,15 @@ include 'front_nav.php';
                 </div>
                   <div class="form-group">
                     <label for="email">Email address</label>
-                    <input type="email" class="form-control" id="email" placeholder="Enter Email Id" name="email">
+                    <input type="email" class="form-control" value="sahar.rohaniz@hotmail.com" id="email" placeholder="Enter Email Id" name="email">
                   </div>
                   <div class="form-group">
                     <label for="address">Address</label>
-                    <input type="text" class="form-control" id="address" placeholder="Enter Address" name="address">
+                    <input type="text" class="form-control" value="Venice Beach" id="address" placeholder="Enter Address" name="address">
                   </div>
                   <div class="form-group">
                     <label for="city">City, State, Zip Code</label>
-                    <input type="text" class="form-control" id="city" placeholder="Enter City, State, Zip Code" name="city">
+                    <input type="text" class="form-control" value="California" id="city" placeholder="Enter City, State, Zip Code" name="city">
                   </div>
                   <div class="form-group">
                     <label for="country">Country</label>
@@ -320,7 +320,7 @@ include 'front_nav.php';
 <option value="Iceland">Iceland</option>
 <option value="India">India</option>
 <option value="Indonesia">Indonesia</option>
-<option value="Iran, Islamic Republic of">Iran, Islamic Republic of</option>
+<option value="Iran, Islamic Republic of" selected>Iran, Islamic Republic of</option>
 <option value="Iraq">Iraq</option>
 <option value="Ireland">Ireland</option>
 <option value="Isle of Man">Isle of Man</option>
@@ -474,15 +474,15 @@ include 'front_nav.php';
                      <div class="card-body">
                   <div class="form-group">
                     <label for="govid">Government ID</label>
-                    <input type="text" class="form-control" id="govid" placeholder="Government ID" name="govid">
+                    <input type="text" class="form-control" value="19293829199" id="govid" placeholder="Government ID" name="govid">
                   </div>
                   <div class="form-group">
                     <label for="ssn">SSN</label>
-                    <input type="text" class="form-control" id="ssn" placeholder="SSN" name="ssn">
+                    <input type="text" class="form-control" value="8837718289" id="ssn" placeholder="SSN" name="ssn">
                   </div>
                   <div class="form-group">
                     <label for="otherid">Other ID</label>
-                    <input type="text" class="form-control" id="otherid" placeholder="Other ID" name="otherid">
+                    <input type="text" class="form-control" value="I95757525" id="otherid" placeholder="Other ID" name="otherid">
                   </div>
                   
                 </div>
