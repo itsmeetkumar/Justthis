@@ -6,20 +6,7 @@ include 'front_nav.php';
 ?>
 
 
-
-
-      <!-- Default box -->
-   
-
-
-
-
-
-
-
-
-
-          
+  
 
 
  <!-- /.middlename -->
@@ -68,7 +55,7 @@ include 'front_nav.php';
                           Advocate Name
                       </th>
                       <th style="width: 30%">
-                          Team Members
+                          Victims
                       </th>
                       <th>
                           Case Progress

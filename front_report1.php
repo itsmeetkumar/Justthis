@@ -41,7 +41,7 @@ include 'front_nav.php';
 
 
  <!-- /.middlename -->
- 
+ <form action="<?php echo $base_url; ?>/immigration.php">
           <div class="card card-primary">
                 <div class="card-body">
                   <div class="form-group">
@@ -60,7 +60,7 @@ include 'front_nav.php';
         </div>
         <dir>You can enter the details here .....</dir>
 
-
+</form>
 
 
 

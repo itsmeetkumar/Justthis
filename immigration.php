@@ -24,7 +24,7 @@ include 'front_nav.php';
               </div>
               <!-- /.card-header -->
               <!-- form start -->
-              <form role="form">
+              <form role="form" action="<?php echo $base_url; ?>/front_criminal.php">
                 <div class="card-body">
                   <div class="form-group">
                     <label for="anumber">What's your A Number?</label>

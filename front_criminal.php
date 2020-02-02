@@ -31,7 +31,7 @@ include 'front_nav.php';
 
               <!-- /.card-header -->
               <!-- form start -->
-              <form role="form">
+              <form role="form" action="<?php echo $base_url;  ?>/hire_advocate.php">
                 
 
 
@@ -764,113 +764,10 @@ include 'front_nav.php';
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-          
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  <button type="submit" class="btn btn-primary">Submit</button>
 
 
-
+</form>
 
 
 

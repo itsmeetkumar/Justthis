@@ -2,58 +2,34 @@
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
-          <li class="nav-item has-treeview">
-            <a href="#" class="nav-link">
-              <i class="nav-icon fas fa-tachometer-alt"></i>
-              <p>
-                Dashboard
-                <i class="right fas fa-angle-left"></i>
-              </p>
-            </a>
-            <a href="#" class="nav-link">
-              <i class="nav-icon fas fa-tachometer-alt"></i>
-              <p>
-                My Cases
-                <i class="right fas fa-angle-left"></i>
-              </p>
-            </a>
-            <a href="#" class="nav-link">
-              <i class="nav-icon fas fa-tachometer-alt"></i>
-              <p>
-                My Profile
-                <i class="right fas fa-angle-left"></i>
-              </p>
-            </a>
-            <a href="#" class="nav-link">
-              <i class="nav-icon fas fa-tachometer-alt"></i>
-              <p>
-                Report Case
-                <i class="right fas fa-angle-left"></i>
-              </p>
-            </a>
+         
 
+          <li class="nav-item">
+            <a href="<?php echo $base_url; ?>/user_dashbord.php" class="nav-link">
+              <i class="nav-icon fas fa-file"></i>
+              <p>My Profile</p>
+            </a>
+          </li>
 
+          <li class="nav-item">
+            <a href="<?php echo $base_url; ?>/hire_advocate.php" class="nav-link">
+              <i class="nav-icon fas fa-file"></i>
+              <p>My Cases</p>
+            </a>
+          </li>
 
-            <ul class="nav nav-treeview">
-              <li class="nav-item">
-                <a href="../../index.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Dashboard v1</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="../../index2.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Dashboard v2</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="../../index3.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Dashboard v3</p>
-                </a>
-              </li>
-            </ul>
+          <li class="nav-item">
+            <a href="<?php echo $base_url; ?>/front_report1.php" class="nav-link">
+              <i class="nav-icon fas fa-file"></i>
+              <p>file a Case</p>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="<?php echo $base_url; ?>/hire_advocate.php" class="nav-link">
+              <i class="nav-icon fas fa-file"></i>
+              <p>Find Attorney </p>
+            </a>
           </li>
           
          
