@@ -5,7 +5,7 @@
          
 
           <li class="nav-item">
-            <a href="<?php echo $base_url; ?>/user_dashbord.php" class="nav-link">
+            <a href="<?php echo $base_url; ?>/Advocate/Ad_dashbord.php" class="nav-link">
               <i class="nav-icon fas fa-file"></i>
               <p>Dashbord</p>
             </a>
@@ -40,7 +40,7 @@
           </li>
 
           <li class="nav-item">
-            <a href="<?php echo $base_url; ?>/heatmap.php" class="nav-link">
+            <a href="<?php echo $base_url; ?>/Advocate/heatmap.php" class="nav-link">
               <i class="nav-icon fas fa-file"></i>
               <p>Heat Map </p>
             </a>
