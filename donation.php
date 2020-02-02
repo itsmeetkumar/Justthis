@@ -67,6 +67,23 @@ include 'front_nav.php';
                   <div><img src="dist/img/credit/visa.png" alt="visa card sign" width="50" height="50"></div>
                   <div><img src="dist/img/credit/mastercard.png" alt="master card sign" width="50" height="50"></div>
                   <div><img src="dist/img/credit/american-express.png" alt="american sign" width="50" height="50"></div>
+
+                  <div class="row">
+                    <div class="column">
+                      <img src="dist/img/paypal.jpg" alt="paypal sign" style="width:100%">
+                      </div>
+                      <div class="column">
+                        <img src="dist/img/credit/visa.png" alt="visa card sign" style="width:100%">
+                      </div>
+                      <div class="column">
+                        <img src="dist/img/credit/mastercard.png" alt="master card sign" style="width:100%">
+                      </div>
+                       <div class="column">
+                        <img src="dist/img/credit/american-express.png" alt="american sign" style="width:100%">
+                      </div>
+                    </div>
+
+
                 </div>
               </div>
 
