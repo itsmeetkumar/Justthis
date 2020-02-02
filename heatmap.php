@@ -17,7 +17,7 @@ include 'front_nav.php';
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h2>Accident Cases Analysis</h2>
+            <h2>Crime Rate Analysis</h2>
           </div>
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">

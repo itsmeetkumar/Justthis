@@ -35,7 +35,7 @@ include 'front_nav.php';
       <!-- Default box -->
       <div class="card">
         <div class="card-header">
-          <h3 class="card-title">Advocate</h3><br><h2>Consult with advocates</h2>
+          <h3 class="card-title">Advocate</h3><br><h2>Consult with lawyers</h2>
 
           <div class="card-tools">
             <button type="button" class="btn btn-tool" data-card-widget="collapse" data-toggle="tooltip" title="Collapse">
