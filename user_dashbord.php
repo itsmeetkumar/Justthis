@@ -38,7 +38,7 @@ include 'front_nav.php';
               <div class="card-body box-profile">
                 <div class="text-center">
                   <img class="profile-user-img img-fluid img-thumbnail"
-                       src="<?php echo $base_url; ?>/img/sahar.jpeg"
+                       src="<?php echo $base_url; ?>/img/Sahar-Pic.jpg"
                        alt="User profile picture" width="90px">
                 </div>
 
