@@ -38,10 +38,15 @@ include 'front_nav.php';
           <br><h2>Consult with lawyers</h2>
 
           <div class="card-tools">
-            <button type="button" class="btn btn-tool" data-card-widget="collapse" data-toggle="tooltip" title="Collapse">
-              <i class="fas fa-minus"></i></button>
-            <button type="button" class="btn btn-tool" data-card-widget="remove" data-toggle="tooltip" title="Remove">
-              <i class="fas fa-times"></i></button>
+            <div class="input-group input-group-md">
+        <input class="form-control form-control-navbar" type="search" placeholder="Find lawyers" aria-label="Search">
+        <div class="input-group-append">
+          <button class="btn btn-navbar" type="submit">
+            <i class="fas fa-search"></i>
+          </button>
+        </div>
+      </div>
+           
           </div>
         </div>
         <div class="card-body p-0">
