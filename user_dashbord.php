@@ -134,7 +134,7 @@ include 'front_nav.php';
                           <label class="form-check-label">Male</label>
                         </div>
                         <div class="form-check">
-                          <input class="form-check-input" type="radio" name="radio1" value="2">
+                          <input class="form-check-input" type="radio" checked name="radio1" value="2">
                           <label class="form-check-label">Female</label>
                         </div>
                         <div class="form-check">
