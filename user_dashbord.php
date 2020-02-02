@@ -129,7 +129,7 @@ include 'front_nav.php';
                   </div>
                   <div class="form-group">
                     <label for="gender">Gender</label>
-                    <div class="form-check">
+                    <div class="form-check" value="Female">
                           <input class="form-check-input" type="radio" name="radio1" value="1">
                           <label class="form-check-label">Male</label>
                         </div>
